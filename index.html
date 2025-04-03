@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Crafting Digital Experiences</h2>
+    <button onclick="document.getElementById('projects').scrollIntoView()">Explore My Work</button>
+  </section>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="project">Projects</button>
+    <button class="filter" data-filter="design">Design</button>
+  </div>
+
+  <!-- Projects Grid -->
+  <section id="projects" class="projects-grid">
+    <!-- Projects Section (Deployed Projects) -->
+    <div class="project-card" data-category="project">
+      <img src="https://via.placeholder.com/300x200" alt="Project 1">
+      <div class="project-info">
+        <h3>Project 1</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+    <div class="project-card" data-category="project">
+      <img src="https://via.placeholder.com/300x200" alt="Project 2">
+      <div class="project-info">
+        <h3>Project 2</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+    <div class="project-card" data-category="project">
+      <img src="https://via.placeholder.com/300x200" alt="Project 3">
+      <div class="project-info">
+        <h3>Project 3</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+    <div class="project-card" data-category="project">
+      <img src="https://via.placeholder.com/300x200" alt="Project 4">
+      <div class="project-info">
+        <h3>Project 4</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+    <div class="project-card" data-category="project">
+      <img src="https://via.placeholder.com/300x200" alt="Project 5">
+      <div class="project-info">
+        <h3>Project 5</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+
+    <!-- Design Section -->
+    <div class="project-card" data-category="design">
+      <img src="https://via.placeholder.com/300x200" alt="Design 1">
+      <div class="project-info">
+        <h3>Design 1</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+    <div class="project-card" data-category="design">
+      <img src="https://via.placeholder.com/300x200" alt="Design 2">
+      <div class="project-info">
+        <h3>Design 2</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+    <div class="project-card" data-category="design">
+      <img src="https://via.placeholder.com/300x200" alt="Design 3">
+      <div class="project-info">
+        <h3>Design 3</h3>
+        <p></p>
+        <div class="tags">
+          <span class="tag"></span>
+        </div>
+        <button>View Project</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="./src/script.js"></script>
+</body>
+</html>
